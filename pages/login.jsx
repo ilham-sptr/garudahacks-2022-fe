@@ -6,6 +6,7 @@ import * as Yup from 'yup';
 import defaultStyles from "../styles/Home.module.css";
 import styles from "../styles/Login.module.css";
 import { useState } from "react";
+
 export default function Login() {
 	const [email, setEmail] = useState("");
 	const [password, setPassword] = useState("");
