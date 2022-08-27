@@ -1,25 +1,24 @@
 {
-  "name": "garudahacks-2022-frontend",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^17.0.3",
-    "@commitlint/config-conventional": "^17.0.3",
-    "@next/eslint-plugin-next": "^12.2.5",
-    "eslint": "^8.23.0",
-    "eslint-config-next": "12.2.5",
-    "eslint-plugin-next": "^0.0.0",
-    "husky": "^8.0.1"
-  }
+	"name": "garudahacks-2022-frontend",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"eslint-config-next": "^12.2.5",
+		"next": "12.2.5",
+		"next-seo": "^5.5.0",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.0.3",
+		"@commitlint/config-conventional": "^17.0.3",
+		"eslint": "^8.23.0",
+		"husky": "^8.0.1"
+	}
 }
