@@ -1,3 +1,8 @@
+import { useRouter } from 'next/router';
+import { useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
+import * as Yup from 'yup';
+
 import defaultStyles from "../styles/Home.module.css";
 import styles from "../styles/Login.module.css";
 import { useState } from "react";
@@ -40,6 +45,7 @@ export default function Login() {
 						className={styles.logininput}
 					/>
 					<button type="submit" className={styles.loginButton}>Login</button>
+					<a href="/account/register" className="btn btn-link">Register</a>
 				</form>
 			</div>
 		</main>
