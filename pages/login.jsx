@@ -40,6 +40,7 @@ export default function Login() {
 						className={styles.logininput}
 					/>
 					<button type="submit" className={styles.loginButton}>Login</button>
+					<a href="./register" className="btn btn-link">Register</a>
 				</form>
 			</div>
 		</main>
