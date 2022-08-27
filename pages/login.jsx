@@ -25,6 +25,7 @@ export default function Login() {
 							return;
 						}}
 						value={email}
+						className={styles.logininput}
 					/>
 					<input
 						type="password"
@@ -36,7 +37,9 @@ export default function Login() {
 							setPassword(e.target.value);
 						}}
 						value={password}
+						className={styles.logininput}
 					/>
+					<button type="submit" className={styles.loginButton}>Login</button>
 				</form>
 			</div>
 		</main>
